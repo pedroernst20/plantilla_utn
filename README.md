@@ -2,7 +2,7 @@
 Clase de LaTex para informes y trabajos de la UTN-FRC
 
 ## dependencias
-En arch linux necesitas instalar los paquetes: texlive-latex texlive-latexrecommended texlive-latexextra
+En arch linux necesitas instalar los paquetes: *texlive-latex texlive-latexrecommended texlive-latexextra*
 ```
 sudo pacman -S texlive-latex texlive-latexrecommended texlive-latexextra
 ```
