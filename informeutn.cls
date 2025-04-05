@@ -1,0 +1,82 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesClass{informeutn}[2025/04/05 Clase para informes UTN-FRC]
+
+\LoadClass[a4paper,12pt]{report}
+
+% Paquetes esenciales
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{graphicx}
+\RequirePackage{amsmath, amsfonts}
+\RequirePackage{xfrac}
+\RequirePackage{float}
+\RequirePackage{enumitem}
+\RequirePackage{booktabs}
+\RequirePackage{tikz}
+\RequirePackage{titlesec}
+\RequirePackage{fancyhdr}
+\RequirePackage{geometry}
+\RequirePackage{afterpage}
+\RequirePackage{etoolbox}
+
+% Márgenes y geometría
+\geometry{
+  left=2.5cm, right=2.5cm,
+  top=2cm, bottom=2cm,
+  includehead
+}
+
+% Encabezados y pies de página
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{UTN-FRC}
+\chead{\@catedra}
+\rhead{\@materia}
+\cfoot{\thepage}
+\setlength{\headheight}{15pt}
+\setlength{\headsep}{20pt}
+\setlength{\headwidth}{\textwidth}
+
+% Comandos personalizados
+\newcommand{\materia}[1]{\def\@materia{#1}}
+\newcommand{\titulo}[1]{\def\@titulo{#1}}
+\newcommand{\autores}[1]{\def\@autores{#1}}
+\newcommand{\fecha}[1]{\def\@fecha{#1}}
+
+% Estilo de capítulos
+\titleformat{\chapter}[display]{\normalfont\Large\bfseries}{}{0pt}{}
+\titlespacing*{\chapter}{10pt}{-45pt}{10pt}
+\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
+
+% Índice
+\renewcommand{\contentsname}{Tabla de Contenidos}
+
+% Página en blanco sin numeración
+\newcommand\myemptypage{
+  \newpage
+  \null
+  \thispagestyle{empty}
+  \addtocounter{page}{-1}
+  \newpage
+}
+
+% Carátula automática
+\def\maketitle{
+  \begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    \includegraphics[width=0.2\textwidth]{utn_logo.jpg}\par\vspace{1cm}
+    {\Large Universidad Tecnológica Nacional\\
+    Facultad Regional Córdoba\par}
+    \vspace{2cm}
+    {\Huge \bfseries \@titulo \par}
+    \vspace{1.5cm}
+    {\LARGE \@materia \par}
+    \vfill
+    {\Large \@nombres \par}
+    \vspace{1cm}
+    {\Large Cátedra: \@catedra \par}
+    \vspace{0.5cm}
+    {\Large Fecha de entrega: \@fecha \par}
+  \end{titlepage}
+}
+
