@@ -29,7 +29,6 @@
 \pagestyle{fancy}
 \fancyhf{}
 \lhead{UTN-FRC}
-\chead{\@catedra}
 \rhead{\@materia}
 \cfoot{\thepage}
 \setlength{\headheight}{15pt}
@@ -72,10 +71,8 @@
     \vspace{1.5cm}
     {\LARGE \@materia \par}
     \vfill
-    {\Large \@nombres \par}
+    {\Large \@autores \par}
     \vspace{1cm}
-    {\Large Cátedra: \@catedra \par}
-    \vspace{0.5cm}
     {\Large Fecha de entrega: \@fecha \par}
   \end{titlepage}
 }
