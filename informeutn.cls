@@ -1,9 +1,22 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{informeutn}[2025/04/05 Clase para informes UTN-FRC]
 
-\LoadClass[a4paper,12pt]{report}
+\newif\ifchaptersright
+\chaptersrightfalse % valor por defecto
+
+\DeclareOption{chaptersright}{\chaptersrighttrue}
+
+\ExecuteOptions{}
+\ProcessOptions\relax
+
+\ifchaptersright
+  \LoadClass[12pt,openright,twoside]{report}
+\else
+  \LoadClass[12pt,openany]{report}
+\fi
 
 % Paquetes esenciales
+\RequirePackage{emptypage}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage{graphicx}
 \RequirePackage{amsmath, amsfonts}
