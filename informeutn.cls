@@ -67,7 +67,7 @@
   \begin{titlepage}
     \centering
     \vspace*{1cm}
-    \includegraphics[width=0.2\textwidth]{utn_logo.jpg}\par\vspace{1cm}
+    \includegraphics[width=0.2\textwidth]{UTN_logo.png}\par\vspace{1cm}
     {\Large Universidad Tecnológica Nacional\\
     Facultad Regional Córdoba\par}
     \vspace{2cm}

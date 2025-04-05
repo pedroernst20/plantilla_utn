@@ -8,7 +8,7 @@ mkdir -p "$DEST"
 
 cp informeutn.cls "$DEST"
 
-cp UTN_logo.jpg "$DEST"
+cp UTN_logo.png "$DEST"
 
 mktexlsr ~/texmf
 
