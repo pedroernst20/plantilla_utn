@@ -62,15 +62,6 @@
 % Índice
 \renewcommand{\contentsname}{Tabla de Contenidos}
 
-% Página en blanco sin numeración
-\newcommand\myemptypage{
-  \newpage
-  \null
-  \thispagestyle{empty}
-  \addtocounter{page}{-1}
-  \newpage
-}
-
 % Carátula automática
 \def\maketitle{
   \begin{titlepage}
