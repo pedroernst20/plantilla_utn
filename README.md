@@ -13,3 +13,4 @@ Para instalar esta clase en tu sistema simplemente corre el script install.sh
 ```
 ./install.sh
 ```
+O simplemente puedes agregar los archivos *informeutn.cls* y *UTN_logo.PNG* en el mismo directorio de tu archivo .tex
