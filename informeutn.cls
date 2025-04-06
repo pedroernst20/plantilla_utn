@@ -56,10 +56,16 @@
 \newcommand{\autores}[1]{\def\@autores{#1}}
 \newcommand{\fecha}[1]{\def\@fecha{#1}}
 
-% Estilo de capítulos
-\titleformat{\chapter}[display]{\normalfont\Large\bfseries}{}{0pt}{}
+% Estilo de capítulos y secciones
+\titleformat{\chapter}[display]{\normalfont\LARGE\bfseries}{}{0pt}{}
 \titlespacing*{\chapter}{10pt}{-45pt}{10pt}
 \patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
+
+\titleformat{\section} {\normalfont\Large\bfseries} {}{0pt}{}
+\titlespacing*{\section} {10pt}{18pt}{8pt}
+
+\titleformat{\subsection} {\normalfont\large\bfseries}{}{0pt}{}
+\titlespacing*{\subsection} {10pt}{12pt}{6pt}
 
 % Índice
 \renewcommand{\contentsname}{Tabla de Contenidos}
