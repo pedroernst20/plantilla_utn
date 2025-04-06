@@ -10,13 +10,13 @@ Este proyecto busca simplificar el proceso de escritura de informes con una est�
 
 - `informeutn.cls`: Archivo de clase principal. Define el formato general del documento, la carátula, márgenes, encabezados y comandos personalizados.
 - `test.tex`: Ejemplo básico que muestra cómo usar la plantilla.
-- `logo-utn.png`: Imagen del logo de la UTN que aparece en la carátula.
+- `UTN_logo.png`: Imagen del logo de la UTN que aparece en la carátula.
 
 ---
 
 ## ✍️ Cómo usar la plantilla
 
-1. Copiá los archivos `informeutn.cls` y `logo-utn.png` en el mismo directorio que tu archivo `.tex`.
+1. Copiá los archivos `informeutn.cls` y `UTN_logo.png` en el mismo directorio que tu archivo `.tex`.
 
 2. En tu archivo `.tex`, usá esta estructura mínima:
 
