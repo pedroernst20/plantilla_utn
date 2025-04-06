@@ -51,6 +51,8 @@
 % Comandos personalizados
 \newcommand{\materia}[1]{\def\@materia{#1}}
 \newcommand{\titulo}[1]{\def\@titulo{#1}}
+\newcommand{\@subtitulo}{}  % Inicialmente vacío
+\newcommand{\subtitulo}[1]{\def\@subtitulo{#1}}
 \newcommand{\autores}[1]{\def\@autores{#1}}
 \newcommand{\fecha}[1]{\def\@fecha{#1}}
 
@@ -72,6 +74,7 @@
     Facultad Regional Córdoba\par}
     \vspace{2cm}
     {\Huge \bfseries \@titulo \par}
+    {\Large \ \@subtitulo \par}
     \vspace{1.5cm}
     {\LARGE \@materia \par}
     \vfill
