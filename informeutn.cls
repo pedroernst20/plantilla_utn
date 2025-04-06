@@ -57,6 +57,31 @@
 \newcommand{\autores}[1]{\def\@autores{#1}}
 \newcommand{\fecha}[1]{\def\@fecha{#1}}
 
+% UNIDADES UTILES
+% --- Resistencias ---
+\newcommand{\kohm}{\,\mathrm{k}\Omega}
+\newcommand{\Mohm}{\,\mathrm{M}\Omega}
+
+% --- Capacitancias ---
+\newcommand{\nF}{\,\mathrm{nF}}
+\newcommand{\uF}{\,\mathrm{\mu F}}
+\newcommand{\mF}{\,\mathrm{mF}}
+
+% --- Tensión ---
+\newcommand{\mV}{\,\mathrm{mV}}
+\newcommand{\V}{\,\mathrm{V}}
+\newcommand{\kV}{\,\mathrm{kV}}
+
+% --- Corriente ---
+\newcommand{\uA}{\,\mathrm{\mu A}}
+\newcommand{\mA}{\,\mathrm{mA}}
+\newcommand{\A}{\,\mathrm{A}}
+
+% --- Inductancias ---
+\newcommand{\mH}{\,\mathrm{mH}}
+\newcommand{\uH}{\,\mathrm{\mu H}}
+\newcommand{\nH}{\,\mathrm{nH}}
+
 % Estilo de capítulos y secciones
 \titleformat{\chapter}[hang]{\normalfont\LARGE\bfseries}{}{0pt}{}
 \titlespacing*{\chapter}{10pt}{0pt}{20pt}
