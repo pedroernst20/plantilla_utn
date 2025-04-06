@@ -1,3 +1,4 @@
+% plantillautn.cls ^-^
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{informeutn}[2025/04/05 Clase para informes UTN-FRC]
 
@@ -31,6 +32,7 @@
 \RequirePackage{geometry}
 \RequirePackage{afterpage}
 \RequirePackage{etoolbox}
+\RequirePackage[siunitx]{circuitikz}
 
 % Márgenes y geometría
 \geometry{
@@ -101,7 +103,7 @@
   \begin{titlepage}
     \centering
     \vspace*{1cm}
-    \includegraphics[width=0.2\textwidth]{UTN_logo.png}\par\vspace{1cm}
+    \includegraphics[width=0.3\textwidth]{UTN_logo.png}\par\vspace{1cm}
     {\Huge Universidad Tecnológica Nacional\\
     Facultad Regional Córdoba\par}
     \vspace{2cm}
@@ -115,4 +117,3 @@
     {\Large Fecha de entrega: \@fecha \par}
   \end{titlepage}
 }
-
