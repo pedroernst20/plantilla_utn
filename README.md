@@ -18,26 +18,9 @@ Este proyecto busca simplificar el proceso de escritura de informes con una est�
 
 1. Copiá los archivos `informeutn.cls` y `UTN_logo.png` en el mismo directorio que tu archivo `.tex`.
 
-2. En tu archivo `.tex`, usá esta estructura mínima:
+2. En tu archivo `.tex` usa "\documentclass{informeutn}"
 
-```latex
-\documentclass{plantillautn}
+## 🤨 Ejemplos?
 
-\materia{Materia universitaria}
-\titulo{Informe pracito N°1}
-\subtitulo{Aplicaciones practicas}
-\autores{Pedro Ernst, Legajo 400624}
-\fecha{\today}
-
-\begin{document}
-
-\maketitle
-
-\tableofcontents
-\newpage
-
-\section{Introducción}
-
-Texto del informe...
-
-\end{document}
+- `example.tex`: Archivo de tipo .tex que contiene contenido para interiorizarse con la plantilla.
+- `example.pdf`: Archivo .pdf que muestra el resultado de la compilacion.
