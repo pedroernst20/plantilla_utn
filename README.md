@@ -16,7 +16,7 @@ Este proyecto busca simplificar el proceso de escritura de informes con una est�
 
 ## ✍️ Cómo usar la plantilla
 
-1. Copiá los archivos `plantillautn.cls` y `logo-utn.png` en el mismo directorio que tu archivo `.tex`.
+1. Copiá los archivos `informeutn.cls` y `logo-utn.png` en el mismo directorio que tu archivo `.tex`.
 
 2. En tu archivo `.tex`, usá esta estructura mínima:
 
