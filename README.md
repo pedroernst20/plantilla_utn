@@ -8,7 +8,7 @@ Este proyecto busca simplificar el proceso de escritura de informes con una est�
 
 ## 📁 Archivos incluidos
 
-- `plantillautn.cls`: Archivo de clase principal. Define el formato general del documento, la carátula, márgenes, encabezados y comandos personalizados.
+- `informeutn.cls`: Archivo de clase principal. Define el formato general del documento, la carátula, márgenes, encabezados y comandos personalizados.
 - `test.tex`: Ejemplo básico que muestra cómo usar la plantilla.
 - `logo-utn.png`: Imagen del logo de la UTN que aparece en la carátula.
 
