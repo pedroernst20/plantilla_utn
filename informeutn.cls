@@ -24,6 +24,7 @@
 \RequirePackage{float}
 \RequirePackage{enumitem}
 \RequirePackage{booktabs}
+\RequirePackage{indentfirst}
 \RequirePackage{tikz}
 \RequirePackage{titlesec}
 \RequirePackage{fancyhdr}
