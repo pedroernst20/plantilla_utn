@@ -20,6 +20,8 @@ Este proyecto busca simplificar el proceso de escritura de informes con una estÃ
 
 2. En tu archivo `.tex` usa "\documentclass{informeutn}"
 
+---
+
 ## ðŸ¤¨ Ejemplos?
 
 - `example.tex`: Archivo de tipo .tex que contiene contenido para interiorizarse con la plantilla.
