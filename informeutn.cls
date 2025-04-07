@@ -33,6 +33,7 @@
 \RequirePackage{afterpage}
 \RequirePackage{etoolbox}
 \RequirePackage[siunitx]{circuitikz}
+\RequirePackage[hidelinks]{hyperref}
 
 % Márgenes y geometría
 \geometry{
